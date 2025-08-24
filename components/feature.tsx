@@ -7,25 +7,6 @@ import MinimalCard, {
 
 
 const Feature = () => {
-  const cards = [
-    {
-      title: "Real Time Interview",
-      description:
-        "Users get access to free AI-mock interview based on job description.",
-      src: "/images/first.jpg",
-    },
-    {
-      title: "Resume Job Predictor",
-      description: "Upload your Resume to know the job you are fit for.",
-      src: "/images/second.jpg",
-    },
-    {
-      title: "Summary at your Fingertips",
-      description:
-        "Get instant Summary Report of the interview to ace your next interview.",
-      src: "https://pbs.twimg.com/media/GgCPjsQacAAWvm3?format=jpg&name=medium",
-    },
-  ];
   return (
     <>
       <h1 className="text-center text-5xl font-bold py-8">Features</h1>

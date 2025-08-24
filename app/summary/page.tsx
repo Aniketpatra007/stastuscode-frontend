@@ -42,7 +42,7 @@ export default function SummaryPage() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-2">Interview Summary</h1>
-          <p className="text-muted-foreground">Here's your performance analysis and recommendations for improvement</p>
+          <p className="text-muted-foreground">Here&lsquo;s your performance analysis and recommendations for improvement</p>
         </div>
 
         <div className="grid gap-6">

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 
 "use client"
@@ -7,7 +8,7 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Upload, FileText, ArrowRight, Loader2, Video } from "lucide-react"
+import { Upload, FileText, Loader2, Video } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 export default function UploadPage() {

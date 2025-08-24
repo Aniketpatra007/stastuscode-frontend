@@ -1,13 +1,14 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Moon, Sun, Calendar } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import ThemeToggleButton from "./ui/theme-toggle-button";
 import { useRouter } from "next/navigation";
 
 export function Navbar() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { theme, setTheme } = useTheme();
   const router = useRouter();
   const handlePractice = () => {

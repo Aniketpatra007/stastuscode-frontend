@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <img src={"/images/avatar1.png"} className="w-10" />
+          <img src={"/images/avatar1.png"} className="w-10" alt="Company Logo" />
           <p className="text-gray-400 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
             magni recusandae quod, nostrum, laborum vel repudiandae illo

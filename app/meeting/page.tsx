@@ -360,7 +360,7 @@ import { useRouter } from "next/navigation";
 
 export default function MeetingPage() {
   const [isMuted, setIsMuted] = useState(false);
-  const [aiSpeech, setAiSpeech] = useState(
+  const [aiSpeech] = useState(
     "Hello! I'm your AI interviewer. Let's start with a simple question: Can you tell me about yourself and why you're interested in this position?"
   );
   const [mediaStream, setMediaStream] = useState<MediaStream | null>(null);
@@ -437,6 +437,7 @@ export default function MeetingPage() {
       wsRef.current?.close();
       audioContextRef.current?.close();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const toggleMute = () => {
